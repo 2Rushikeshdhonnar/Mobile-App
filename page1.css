@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    padding: 0 50px;
+    background-color: #D0D4D5;
+    position: relative;
+}
+
+.nav {
+    height: 110px;
+    weight: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav img {
+    height: 50px;
+    margin-right: 185px;
+}
+
+#nav-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav-1 h4 {
+    margin-right: 60px;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+#nav-2 i {
+    margin-right: 70px;
+    font-size: 25px;
+    font-weight: 500;
+}
+#content{
+    height: calc(100% - 110px);
+    width:100%;
+    display: flex;
+    position: relative;
+}
+#left{
+  width:40%;
+  height:100%;
+  padding:70px  150px;
+}
+#left h5{
+    font-size:20px;
+    color: #161616;
+ text-transform:uppercase;
+ margin-bottom: 20px;
+}
+#left h1{
+    font-size:60px;
+ text-transform:uppercase;
+ line-height:70px;
+ margin-bottom:20px;
+}
+#left p{
+  font-size:15px;
+  width: 120%;
+  margin-bottom:50px;
+}
+#left button{
+    background: #000;
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 15px  40px;
+    border-radius: 50px;
+    border-top-left-radius: 0;
+}
+#right{
+    width:60%;
+    height:100%;
+position:relative;
+white-space:nowrap; 
+overflow-x:auto;
+}
+#right::-webkit-scrollbar{
+    display:none;
+}
+.elem{
+    height:540px;
+    width:380px;
+    background-color: #fff;
+    position:relative;
+    border-radius: 10px;
+    box-shadow:0 5px 10px rgb(0,0,0.5);
+    display: inline-block;
+    margin-left: 30px;
+}
+.elem img{
+    height:70%;
+    width:100%;
+    top: 7%;
+    object-fit:contain;
+    position:absolute;
+}
+.elem h4{
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    background-color:#D0D4D5;
+    padding:15px 30px;
+    border-radius: 6px;
+}
+.elem h5{
+    position:absolute;
+    bottom: 10%;
+    right: 0;
+    background-color: #000;;
+    padding:17px 34px;
+    border-radius: 6px;
+    font-weight: 500; 
+    color:#fff;
+    font-size: 13px;
+}
